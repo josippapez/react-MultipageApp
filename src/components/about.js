@@ -1,4 +1,5 @@
 import React from 'react';
+import Rainbow from '../hoc/rainbow';
 
 function About(){
     return (
@@ -9,4 +10,4 @@ function About(){
     )
 }
 
-export default About;
+export default Rainbow(About);
